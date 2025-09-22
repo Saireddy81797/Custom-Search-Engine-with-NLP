@@ -12,3 +12,22 @@ Collaborative filtering → Learns from user behavior and ratings.
 Hybrid approach → Merges both techniques for improved personalization.
 
 Scalable pipeline → Modular design for easy extension to real-world datasets.
+
+
+Custom-Search-Engine-with-NLP/
+│── data/
+│   └── sample_products.csv        
+│
+│── notebooks/
+│   └── EDA.ipynb                 
+│
+│── src/
+│   ├── __init__.py                
+│   ├── preprocess.py             
+│   ├── content_based.py           
+│   ├── collaborative.py           
+│   ├── recommender.py             
+│
+│── app.py                        
+│── requirements.txt            
+│── README.md                      
